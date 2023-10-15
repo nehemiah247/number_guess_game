@@ -26,7 +26,6 @@ def game():
   print("Welcome to the guessing game")
   print("I'm thinking of a number between 1 to 100")
   answer = randint(1, 100)
-  print(f"the actual answer is {answer}")
   turns = set_dificulty()
  
   guess = 0
